@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.claude/
+# datasets (too large for git)
+Training-*/Training/prepared_data/
+Training-*/Training/AquaPense-Anotated-Data/
+Training-*/Training/results/test_predictions/
+Training-*/Training/.ipython/
+Training-*/Training/.jupyter/
+Training-*/Training/Ultralytics/
+# base / duplicate weights (keep only best.pt)
+Training-*/Training/yolo*.pt
+Training-*/Training/results/fish_detector/weights/last.pt
+results_weight/annotated/

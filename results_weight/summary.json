@@ -1,0 +1,53 @@
+{
+  "images": 215,
+  "detections": 3542,
+  "measured_fish": 1587,
+  "skip_reasons": {
+    "measured": 1587,
+    "skipped: not side-on": 934,
+    "skipped: side glass / edge": 830,
+    "skipped: overlapping": 190,
+    "skipped: clipped": 1
+  },
+  "count_test_MAE": 1.0952380952380953,
+  "count_test_mean_bias": 0.14285714285714285,
+  "count_test_MAPE_pct": 6.6227865415171925,
+  "length_cm": {
+    "count": 1587.0,
+    "mean": 8.59,
+    "std": 1.65,
+    "min": 3.91,
+    "25%": 7.46,
+    "50%": 8.61,
+    "75%": 9.71,
+    "max": 17.35
+  },
+  "weight_g": {
+    "count": 1587.0,
+    "mean": 9.92,
+    "std": 5.85,
+    "min": 0.81,
+    "25%": 5.79,
+    "50%": 8.95,
+    "75%": 12.93,
+    "max": 75.35
+  },
+  "per_image_mean_weight_g": {
+    "mean": 9.954915863758774,
+    "std": 2.0865855241202786,
+    "cv_pct": 20.960353183059713
+  },
+  "pooled_mean_weight_g": 9.920167910085537,
+  "pooled_mean_weight_g_depth_range": [
+    7.845289954733652,
+    12.334547361513005
+  ],
+  "median_gt_count": 17.0,
+  "calibration": {
+    "tank_width_cm": 90.0,
+    "front_span_frac": 0.94,
+    "back_span_frac": 0.81
+  },
+  "biomass_g_estimate": 168.64285447145411,
+  "feed_g_day_at_2pct": 3.3728570894290826
+}
